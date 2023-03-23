@@ -9,7 +9,7 @@ admin.site.register(ProductCategory)
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('name', 'price', 'quantity', 'category')  # Отображение параметров модели
     fields = ('name', 'description', 'price', 'quantity', 'image', 'category')  # Изменение параметров внутри объекта БД
-    readonly_fields = ('description',)  # Параметры только для чтения
+    # readonly_fields = ('description',)  # Параметры только для чтения
     search_fields = ('name',)  # Поиск объектов по параметру "name"
     ordering = ('name',)  # Сортировка в алфавитном порядке, если поставить "-name" то в обратном порядке
 

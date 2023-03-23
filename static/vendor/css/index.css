@@ -4,7 +4,8 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-top: 56px;
+    padding-top: 20px;
+    font-weight: bold;
 }
 
 #start-purchase-btn {
